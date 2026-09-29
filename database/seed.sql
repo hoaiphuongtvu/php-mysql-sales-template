@@ -52,10 +52,10 @@ VALUES
 INSERT INTO product_images
     (ProductID, ImageFile, AltText, IsPrimary, SortOrder)
 VALUES
-    (1, 'phone-a-1.jpg', 'Điện thoại Smartphone A - ảnh chính', TRUE, 1),
-    (1, 'phone-a-2.jpg', 'Điện thoại Smartphone A - mặt sau', FALSE, 2),
-    (2, 'laptop-b-1.jpg', 'Laptop B - ảnh chính', TRUE, 1),
-    (3, 'mouse-c-1.jpg', 'Chuột không dây C - ảnh chính', TRUE, 1);
+    (1, 'phone-a-1_11zon.jpg', 'Điện thoại Smartphone A - ảnh chính', TRUE, 1),
+    (1, 'phone-a-2_11zon.jpeg', 'Điện thoại Smartphone A - mặt sau', FALSE, 2),
+    (2, 'laptop-b-1_11zon.jpg', 'Laptop B - ảnh chính', TRUE, 1),
+    (3, 'mouse-c-1_11zon.jpg', 'Chuột không dây C - ảnh chính', TRUE, 1);
 
 INSERT INTO orders (OrderDate, CustomerID, EmployeeID, ShipperID)
 VALUES
